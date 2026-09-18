@@ -1,0 +1,11 @@
+name: CrossplayBootstrap
+version: 1.0.0
+main: com.crossplay.bootstrap.CrossplayBootstrap
+api-version: '1.21'
+load: STARTUP
+authors: [Royalfire]
+description: Auto-configures Geyser and Floodgate for crossplay on first startup.
+
+softdepend:
+  - Geyser-Spigot
+  - floodgate
